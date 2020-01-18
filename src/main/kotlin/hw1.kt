@@ -1,9 +1,5 @@
 fun main() {
 
-//    val amount = 200 // стоимость текущей продажи
-//    val total = 11_000 // сумма предыдущих продаж
-//    val fee = calculateFee(200, 11_000)  // exclusive по умолчанию = false
-//    println(fee) // 40
     println(calculateFee(100, 300_000))
     println(calculateFee(100, 300_000, true))
     println(calculateFee(100, 30_000))

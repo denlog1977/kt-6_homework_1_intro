@@ -1,5 +1,3 @@
-import javafx.scene.text.FontWeight
-
 fun main() {
     val index = bodyMassIndex(96f, 1.76f)
     println(index)
